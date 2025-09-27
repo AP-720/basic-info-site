@@ -1,0 +1,23 @@
+{
+	"name": "basic-info-site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"test": "node --test",
+		"debug": "node --inspect index.js"
+	},
+	"dependencies": {
+		"modern-normalize": "^3.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.14.0",
+		"eslint": "^9.14.0",
+		"eslint-config-prettier": "^9.1.0",
+		"jest": "^29.7.0",
+		"nodemon": "^3.1.10"
+	}
+}
